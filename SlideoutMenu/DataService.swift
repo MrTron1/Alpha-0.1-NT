@@ -14,7 +14,7 @@ class DataService {
     
     private var _REF_BASE = Firebase(url: "https://nighttime.firebaseio.com")
     
-    var REF_BASE: FireBase {
+    var REF_BASE: Firebase {
         return _REF_BASE
     }
 }

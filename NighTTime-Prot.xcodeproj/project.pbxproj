@@ -287,12 +287,12 @@
 			attributes = {
 				LastSwiftMigration = 0710;
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Archetapp;
 				TargetAttributes = {
 					AC0FA4171AD5EA1D00375765 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = V2X88KK3P4;
+						DevelopmentTeam = 69CH9UTLK7;
 					};
 					AC0FA42C1AD5EA1D00375765 = {
 						CreatedOnToolsVersion = 6.2;
@@ -465,6 +465,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -479,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -515,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -535,7 +536,9 @@
 					"$(PROJECT_DIR)/SlideoutMenu",
 				);
 				INFOPLIST_FILE = SlideoutMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Archetapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "NighTTime-Prot";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SlideoutMenu/SlideoutMenu-Bridging-Header.h";
@@ -556,7 +559,9 @@
 					"$(PROJECT_DIR)/SlideoutMenu",
 				);
 				INFOPLIST_FILE = SlideoutMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Archetapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "NighTTime-Prot";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SlideoutMenu/SlideoutMenu-Bridging-Header.h";
@@ -577,6 +582,7 @@
 				);
 				INFOPLIST_FILE = SlideoutMenuTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Archetapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "NighTTime-Prot";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NighTTime-Prot.app/NighTTime-Prot";
 			};
@@ -592,6 +598,7 @@
 				);
 				INFOPLIST_FILE = SlideoutMenuTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Archetapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "NighTTime-Prot";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NighTTime-Prot.app/NighTTime-Prot";
 			};
